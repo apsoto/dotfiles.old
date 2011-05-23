@@ -1,4 +1,4 @@
-# keep sorted (vim: %!sort)
+# keep it sorted and clean (vim: %!sort | uniq)
 .CFUserTextEncoding
 .DS_Store
 .Trash/
@@ -14,7 +14,6 @@
 .lesshst
 .mysql_history
 .psql_history
-.rdebug_hist
 .rdebug_hist
 .rnd
 .rvm
