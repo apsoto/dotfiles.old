@@ -1,0 +1,5 @@
+startup_message off
+vbell off
+defscrollback 5000
+hardstatus alwayslastline
+hardstatus string '%{= kw}%-w%{= BW}%n %t%{-}%+w %-= | %H | %D %m/%d/%y | %C:%s %A | %1`%{-}'
