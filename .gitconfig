@@ -1,0 +1,28 @@
+[user]
+	name = Alex Soto
+	email = apsoto@gmail.com
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+[merge]
+	tool = opendiff
+[alias]
+    b = branch -v
+    br = branch -r -v
+    ci = commit
+    co = checkout
+    cp = cherry-pick
+    d = diff 
+    ignored = ls-files --exclude-standard --ignored --others
+    spull = !git-svn fetch && git-svn rebase
+    spush = !git-svn dcommit
+    st = status
+[core]
+  excludesfile=~/.gitignore-global
+[log]
+  decorate 
+
+# by default always rebase the master branch when pulling
+[branch "master"]
+	rebase = true
