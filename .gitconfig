@@ -18,6 +18,7 @@
     spull = !git-svn fetch && git-svn rebase
     spush = !git-svn dcommit
     st = status
+  ll = log --pretty=format:'%Cblue%h%d%Creset %ar %Cgreen%an%Creset %s' --graph
 [core]
   excludesfile=~/.gitignore-global
 [log]
