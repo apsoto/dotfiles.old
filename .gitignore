@@ -20,6 +20,7 @@
 .sqlite_history
 .ssh/
 .subversion
+.trine
 .vim-fuf
 .viminfo
 Applications/
