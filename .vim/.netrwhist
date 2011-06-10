@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/asoto/projects/channels/channels-reader'
+let g:netrw_dirhist_2='/Users/asoto/projects/channels/channels-reader/app'
+let g:netrw_dirhist_3='/Users/asoto/projects/channels/channels-chef-repo'
+let g:netrw_dirhist_4='/Users/asoto/projects/wurl/clients/wurl'
