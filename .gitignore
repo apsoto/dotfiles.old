@@ -21,6 +21,7 @@
 .ssh/
 .subversion
 .trine
+.vim/\.netrwhist
 .vim-fuf
 .viminfo
 Applications/
