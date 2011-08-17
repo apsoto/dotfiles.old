@@ -24,6 +24,9 @@ set autoindent
 " Use spaces instead of tabs
 set expandtab
 
+" Display extra whitespace
+set list listchars=tab:»·,trail:·
+
 " solarized setup
 syntax enable
 set background=dark
