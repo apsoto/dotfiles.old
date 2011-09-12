@@ -14,6 +14,7 @@
     co = checkout
     cp = cherry-pick
     d = diff 
+    dc = diff --cached
     ignored = ls-files --exclude-standard --ignored --others
     spull = !git-svn fetch && git-svn rebase
     spush = !git-svn dcommit
