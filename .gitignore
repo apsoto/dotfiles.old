@@ -21,8 +21,8 @@
 .ssh/
 .subversion
 .trine
-.vim/\.netrwhist
 .vim-fuf
+.vim/\.netrwhist
 .viminfo
 Applications/
 Calibre Library/
@@ -36,4 +36,6 @@ Music/
 Pictures/
 Public/
 Sites/
+bin/
 projects/
+share/
