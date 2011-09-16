@@ -1,0 +1,5 @@
+# vim:filetype=crontab
+# To activate on OSX  $ crontab ~/.crontab
+#min    hour    mday    month   wday    command
+*/30    *       *       *       *       /usr/local/bin/growlnotify -m 'Get up and move around' -a Automator
+
