@@ -82,6 +82,8 @@ map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>r :RunSpec<CR>
 map <leader>R :RunSpecs<CR>
 map <leader>l :TlistToggle<CR>
+" open current file in Marked.app
+map <leader>m :silent !open -a Marked.app '%:p'<cr>
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
