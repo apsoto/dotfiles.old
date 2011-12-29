@@ -151,3 +151,6 @@ else
   set autoindent		" always set autoindenting on
 
 endif " has("autocmd")
+
+" load pathogen plugin
+call pathogen#infect()
