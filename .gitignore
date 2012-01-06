@@ -1,6 +1,5 @@
 # keep it sorted and clean (vim: %!sort | uniq)
 .CFUserTextEncoding
-Incompatible Software/
 .DS_Store
 .Trash/
 .android
@@ -40,6 +39,7 @@ Desktop/
 Documents/
 Downloads/
 Dropbox/
+Incompatible Software/
 Library/
 Movies/
 Music/
