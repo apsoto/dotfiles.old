@@ -1,12 +1,16 @@
 # keep it sorted and clean (vim: %!sort | uniq)
 .CFUserTextEncoding
+Incompatible Software/
 .DS_Store
 .Trash/
 .android
+.aws-secrets
 .bash.d/ssh-agent.sh
 .bash_history
+.chef
 .cups
 .dropbox
+.ec2
 .gdb_history
 .gem
 .heroku
@@ -18,11 +22,14 @@
 .npm
 .psql_history
 .rdebug_hist
+.rhomobile
 .rnd
 .rvm
+.s3cfg
 .sqlite_history
 .ssh/
 .subversion
+.subversion_IDEA
 .trine
 .vim-fuf
 .vim/\.netrwhist
