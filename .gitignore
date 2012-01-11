@@ -7,14 +7,17 @@
 .bash.d/ssh-agent.sh
 .bash_history
 .chef
+.ctrlp_cache
 .cups
 .dropbox
 .ec2
 .gdb_history
 .gem
+.gvimrc
 .heroku
 .irb-history
 .irb_history
+.janus
 .lesshst
 .mysql_history
 .node_libraries
@@ -30,9 +33,11 @@
 .subversion
 .subversion_IDEA
 .trine
+.vim
+.vim-cache
 .vim-fuf
-.vim/\.netrwhist
 .viminfo
+.vimrc
 Applications/
 Calibre Library/
 Desktop/

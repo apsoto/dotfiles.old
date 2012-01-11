@@ -1,0 +1,11 @@
+let mapleader=","
+
+call janus#disable_plugin('command-t')
+call janus#disable_plugin('easymotion')
+call janus#disable_plugin('hammer')
+call janus#disable_plugin('kwbd')
+call janus#disable_plugin('narrowregion')
+call janus#disable_plugin('pep8')
+call janus#disable_plugin('tasks')
+call janus#disable_plugin('unimpaired')
+call janus#disable_plugin('vimwiki')

@@ -1,0 +1,14 @@
+set background=dark
+
+if has("gui_macvim")
+  set guifont=Inconsolata:h18
+else
+  set guifont=Bitstream\ Vera\ Sans\ Mono:h18
+endif
+
+color solarized
+
+set history=50
+
+set wildignore+=*.iseq
+let g:ctrlp_by_filename = 0
