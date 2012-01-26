@@ -12,3 +12,20 @@ set history=50
 
 set wildignore+=*.iseq
 let g:ctrlp_by_filename = 0
+
+" NERDTree tweaks
+if exists("g:NERDTreeWinSize")
+  let g:NERDTreeWinSize = 42
+endif
+
+" buffergator tweaks
+if exists("g:buffergator_viewport_split_policy")
+    " split below VIM window since I like it under my project explorer
+    let g:buffergator_viewport_split_policy = "b"
+    " 15 lines height for window
+    let g:buffergator_split_size = 15
+    let g:buffergator_sort_regime = "mru"
+    " keep the buffergator window open when I select a buffer
+    let g:buffergator_autodismiss_on_select = 0
+endif
+
