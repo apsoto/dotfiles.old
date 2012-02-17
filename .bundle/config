@@ -1,2 +1,3 @@
---- 
+---
 BUNDLE_BUILD__GEOIP-C: --with-opt-include=/opt/local/include --with-opt-lib=/opt/local/lib
+BUNDLE_BUILD__PG: --with-pg_config=/opt/local/lib/postgresql90/bin/pg_config
