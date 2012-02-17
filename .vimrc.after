@@ -1,5 +1,7 @@
 set background=dark
 
+set foldmethod=syntax
+
 if has("gui_macvim")
   set guifont=Inconsolata:h18
 else
