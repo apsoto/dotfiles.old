@@ -1,2 +1,6 @@
-require 'autotest/growl'
+begin
+  require 'autotest/growl'
+rescue LoadError => e
+  STDERR.puts "#{e.message} at \n#{caller.join("\n")}"
+end
 
