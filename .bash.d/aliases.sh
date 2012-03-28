@@ -9,7 +9,7 @@ fi
 alias ll='ls -l'
 alias pgrep='pgrep -L'
 
-alias rack='ack --ruby --yaml --js --css'
+alias rack='ack --rails'
 alias pgstart='sudo port load postgresql90-server'
 alias pgstop='sudo port unload postgresql90-server'
 alias mysqlstart='sudo launchctl load /Library/LaunchDaemons/org.macports.mysql5.plist'
