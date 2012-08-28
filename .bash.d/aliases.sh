@@ -16,3 +16,7 @@ alias mysqlstart='sudo launchctl load /Library/LaunchDaemons/org.macports.mysql5
 alias mysqlstop='sudo launchctl unload /Library/LaunchDaemons/org.macports.mysql5.plist'
 
 alias be='bundle exec'
+alias ws='cd ~/projects/wurl/servers/wurl-server'
+alias wsc='cd ~/projects/wurl/ops/wurl-chef-repo'
+alias cr='cd ~/projects/channels/channels-reader'
+alias crc='cd ~/projects/channels/channels-chef-repo'
