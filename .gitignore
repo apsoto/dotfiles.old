@@ -4,7 +4,6 @@
 .Trash/
 .android
 .aws-secrets
-.bash.d/ssh-agent.sh
 .bash_history
 .chef
 .ctrlp_cache

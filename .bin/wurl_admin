@@ -1,0 +1,2 @@
+#! /bin/bash
+autossh -M 20004 -2tA -i ~/.ssh/channels-prod.pem root@admin.channels.com "screen -e^Zz -D -R asoto"
