@@ -1,8 +1,7 @@
 # enable color support of ls and also add handy aliases
 if [ "$TERM" != "dumb" ]; then
 	alias ls='ls -GF'
-    alias diff=/opt/local/bin/colordiff
-    alias grep='grep --color'
+  alias grep='grep --color'
 fi
 
 # some more ls aliases

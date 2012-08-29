@@ -5,6 +5,7 @@
 .android
 .aws-secrets
 .bash_history
+.cache
 .chef
 .ctrlp_cache
 .cups
@@ -18,6 +19,7 @@
 .irb_history
 .janus
 .lesshst
+.macports
 .mysql_history
 .node_libraries
 .npm
@@ -40,7 +42,7 @@
 Applications/
 Calibre Library/
 Desktop/
-Documents/
+Documents
 Downloads/
 Dropbox/
 Incompatible Software/

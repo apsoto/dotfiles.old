@@ -1,4 +1,5 @@
 --type-set=erb=.erb
 --type-set=rails=Rakefile,rb,.rhtml,.rjs,.rxml,.erb,.rake,.spec,.coffee,.conf,.css,.erb,.html,.js,.opts,.rake,.rb,.ru,.sample,.scss,.sql,.yaml,.yml
 --ignore-dir=bin
+--ignore-dir=.bundler-gems
 
