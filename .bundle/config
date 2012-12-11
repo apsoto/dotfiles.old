@@ -1,3 +1,4 @@
 ---
 BUNDLE_BIN: bin
 BUNDLE_PATH: .bundler-gems
+BUNDLE_BUILD: --with-opt-dir=/opt/local
