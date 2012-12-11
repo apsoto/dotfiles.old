@@ -35,3 +35,13 @@ if exists("g:buffergator_viewport_split_policy")
     let g:buffergator_autodismiss_on_select = 0
 endif
 
+" syntastic tweaks
+let g:syntastic_enable_highlighting = 1
+
+" indent guides tweaks
+"
+" show indent guides after the initial indent
+let g:indent_guides_start_level = 2
+" only use 1 column width for indent
+let g:indent_guides_guide_size = 1
+
