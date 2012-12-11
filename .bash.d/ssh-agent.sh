@@ -1,6 +1,7 @@
 
 if [ -d ~/.ssh ] ; then
-  ssh-add ~/.ssh/id_dsa
+  # add default keys
+  ssh-add
 
   for file in ~/.ssh/*.pem; do
     if [ -r $file ]; then
