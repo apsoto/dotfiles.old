@@ -37,3 +37,5 @@
 	trustExitCode = true
 [push]
 	default = simple
+[github]
+	user = apsoto
