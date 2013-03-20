@@ -1,7 +1,6 @@
 *~
 .bundler-gems
 .bundle
-bin
 .DS_Store
 .idea
 *.swp
