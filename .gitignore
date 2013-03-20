@@ -5,6 +5,7 @@
 .android
 .aws-secrets
 .bash_history
+.bin
 .cache
 .chef
 .ctrlp_cache
@@ -13,19 +14,27 @@
 .ec2
 .gdb_history
 .gem
+.gitk
+.guard_history
 .gvimrc
 .heroku
+.hgignore_global
 .irb-history
 .irb_history
 .janus
 .lesshst
 .macports
+.mono
+.my.cnf
 .mysql_history
+.netrc
 .node_libraries
 .npm
 .psql_history
 .rdebug_hist
+.rediscli_history
 .rhomobile
+.rightscale
 .rnd
 .rvm
 .s3cfg
@@ -33,12 +42,16 @@
 .ssh/
 .subversion
 .subversion_IDEA
+.thor
 .trine
+.vegas
 .vim
 .vim-cache
 .vim-fuf
 .viminfo
 .vimrc
+.zprofile
+.zshenv
 Applications/
 Calibre Library/
 Desktop/
@@ -55,3 +68,4 @@ Sites/
 bin/
 projects/
 share/
+tmp/
