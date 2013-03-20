@@ -15,7 +15,8 @@ set history=50
 set wildignore+=*.iseq
 let g:ctrlp_by_filename = 0
 let g:ctrlp_custom_ignore = {
-    \ 'dir':  '\.bundler-gems'
+    \ 'gemdir':  '\.bundler-gems',
+    \ 'docdir':  'doc'
     \ }
 
 
