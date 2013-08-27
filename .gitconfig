@@ -23,6 +23,8 @@
 [core]
 	excludesfile = /Users/asoto/.gitignore_global
 	quotepath = false
+	autocrlf = input
+	safecrlf = true
 [log]
   decorate 
 
