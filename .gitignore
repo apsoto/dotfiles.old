@@ -6,6 +6,7 @@
 .aws-secrets
 .bash_history
 .bin
+.bower/cache
 .cache
 .chef
 .ctrlp_cache
@@ -58,6 +59,7 @@ Desktop/
 Documents
 Downloads/
 Dropbox/
+Google\ Drive/
 Incompatible Software/
 Library/
 Movies/
