@@ -2,6 +2,9 @@ set background=dark
 
 set foldmethod=syntax
 
+" Highlight the column after textwidth setting
+set colorcolumn=+1
+
 if has("gui_macvim")
   set guifont=Inconsolata:h18
 else
@@ -15,9 +18,10 @@ set history=50
 set wildignore+=*.iseq
 let g:ctrlp_by_filename = 0
 let g:ctrlp_custom_ignore = {
-    \ 'gemdir':  '\.bundler-gems',
-    \ 'docdir':  'doc'
+    \ 'dir':  'tmp\/.*$'
     \ }
+"    \ 'dir':  '\.bundler-gems',
+"    \ 'dir':  'doc',
 
 
 " NERDTree tweaks
@@ -46,3 +50,5 @@ let g:indent_guides_start_level = 2
 " only use 1 column width for indent
 let g:indent_guides_guide_size = 1
 
+" remove trailing whitespace automatically for source code
+autocmd FileType c,cpp,python,ruby,java,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
