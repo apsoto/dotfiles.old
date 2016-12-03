@@ -26,10 +26,9 @@ function set_prompt {
   #   TITLEBAR=""
   #   ;;
   # esac
- 
-  PS1="${TITLEBAR}\
-  $BLUE[$GREEN\w$LIGHT_GRAY branch:$RED\$(parse_git_branch) $LIGHT_GRAY ruby:$RED\$(rvm_info)$BLUE]\
-  $GREEN\n\$$WHITE "
+
+  # git-radar: https://github.com/michaeldfallen/git-radar
+  PS1="$BLUE[$GREEN\w$RED \$(rvm_info) \$(git-radar --bash --fetch) $BLUE]\n\$$WHITE "
   PS2='> '
   PS4='+ '
 }
