@@ -1,17 +1,16 @@
 # keep it sorted and clean (vim: %!sort | uniq)
-.CFUserTextEncoding
-.DS_Store
-.Trash/
 .android
 .aws-secrets
 .bash_history
 .bin
 .bower/cache
 .cache
+.CFUserTextEncoding
 .chef
 .ctrlp_cache
 .cups
 .dropbox
+.DS_Store
 .ec2
 .gdb_history
 .gem
@@ -44,6 +43,7 @@
 .subversion
 .subversion_IDEA
 .thor
+.Trash/
 .trine
 .vegas
 .vim
@@ -54,6 +54,7 @@
 .zprofile
 .zshenv
 Applications/
+bin/
 Calibre Library/
 Desktop/
 Documents
@@ -65,9 +66,11 @@ Library/
 Movies/
 Music/
 Pictures/
-Public/
-Sites/
-bin/
 projects/
+Public/
 share/
+Sites/
 tmp/
+.codeintel/
+.nvm
+dotfiles
